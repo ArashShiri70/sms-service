@@ -195,6 +195,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         *  Sms Service Provider
+         */
+        App\Providers\SmsServiceProvider::class,
+
     ],
 
     /*
